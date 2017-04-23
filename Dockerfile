@@ -3,4 +3,6 @@ MAINTAINER Claas Felix Beyersdorf <claas.beyersdorf@iant.de>
 
 USER root
 
-RUN yum install git -y && yum clean all && yum clean metadata
+RUN yum install git -y && \
+ yum clean all && \
+ yum clean metadata 
